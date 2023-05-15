@@ -1,0 +1,27 @@
+
+element.style {
+}
+<style>
+:host([single-colored]) #logo {
+-webkit-mask-image: url(chrome://new-tab-page/icons/google_logo.svg);
+ -webkit-mask-repeat: no-repeat;
+-webkit-mask-size: 100%;
+background-color: var(--ntp-logo-color);
+
+
+ <style>
+ #logo {
+ forced-color-adjust: none;
+height: 92px;
+width: 272px;
+ display: block;
+ :host {
+--ntp-logo-height: 200px;
+display: flex;
+flex-direction: column;
+ flex-shrink: 0;
+justify-content: flex-end;
+ min-height: var(--ntp-logo-height)
+ style attribute {
+    --ntp-theme-text-color: rgba(248, 249, 250, 1);
+    --ntp-logo-color: rgba(238, 238, 238, 1)
